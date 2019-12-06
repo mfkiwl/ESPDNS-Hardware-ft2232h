@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:EsperDNS-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,19 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:USB_B_Micro J?
-U 1 1 5DF04BA1
-P 1750 1600
-AR Path="/5DF04BA1" Ref="J?"  Part="1" 
-AR Path="/5DED2F9B/5DF04BA1" Ref="J1"  Part="1" 
-F 0 "J1" H 1600 1950 50  0000 C CNN
-F 1 "USB_B_Micro" H 1750 1950 50  0001 C CNN
-F 2 "" H 1900 1550 50  0001 C CNN
-F 3 "~" H 1900 1550 50  0001 C CNN
-	1    1750 1600
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 5DF04BA7
@@ -100,7 +86,6 @@ F 3 "" H 1750 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1650 2000 1750 2000
-Connection ~ 1750 2000
 Wire Wire Line
 	3050 2100 3050 1900
 Wire Wire Line
@@ -410,7 +395,7 @@ AR Path="/5DF04C5E" Ref="J?"  Part="1"
 AR Path="/5DED2F9B/5DF04C5E" Ref="J2"  Part="1" 
 F 0 "J2" H 8700 5667 50  0000 C CNN
 F 1 "ARJM11A3" H 8700 5576 50  0000 C CNN
-F 2 "" H 8250 4500 50  0001 L BNN
+F 2 "kicad-library:ARJM11A3-009-AB-ER2-T" H 8250 4500 50  0001 L BNN
 F 3 "" H 8250 4500 50  0001 C CNN
 	1    8750 4700
 	1    0    0    -1  
@@ -1233,4 +1218,16 @@ Text Label 8000 4500 0    50   ~ 0
 RD-
 Wire Wire Line
 	2050 1400 2200 1400
+$Comp
+L Symbols:10118192-0001LF J1
+U 1 1 5DEC996C
+P 1750 1600
+F 0 "J1" H 1807 1975 50  0000 C CNN
+F 1 "10118192-0001LF" H 1807 1976 50  0001 C CNN
+F 2 "" H 1900 1550 50  0001 C CNN
+F 3 "~" H 1900 1550 50  0001 C CNN
+	1    1750 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 1750 2000
 $EndSCHEMATC
