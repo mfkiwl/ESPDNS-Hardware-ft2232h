@@ -660,7 +660,7 @@ Text GLabel 2550 4800 0    50   Input ~ 0
 MDC
 Text GLabel 2550 4700 0    50   Input ~ 0
 MDIO
-Text GLabel 2550 4600 0    50   Input ~ 0
+Text GLabel 1800 4650 0    50   Input ~ 0
 CRS_DV
 Text GLabel 1800 4450 0    50   Input ~ 0
 RXD1
@@ -721,8 +721,6 @@ Wire Wire Line
 	3850 4100 2550 4100
 Wire Wire Line
 	2550 4200 3850 4200
-Wire Wire Line
-	3850 4600 2550 4600
 Wire Wire Line
 	3000 4700 2550 4700
 Connection ~ 3000 4700
@@ -1233,4 +1231,25 @@ Wire Wire Line
 Connection ~ 8550 1550
 Wire Wire Line
 	8550 1950 8550 2100
+$Comp
+L Device:R R?
+U 1 1 5DFF908E
+P 2050 4650
+AR Path="/5DFF908E" Ref="R?"  Part="1" 
+AR Path="/5DED2F9B/5DFF908E" Ref="R27"  Part="1" 
+F 0 "R27" V 1950 4500 50  0000 L CNN
+F 1 "10K" V 1950 4700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1980 4650 50  0001 C CNN
+F 3 "~" H 2050 4650 50  0001 C CNN
+	1    2050 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 4650 1900 4650
+Wire Wire Line
+	2200 4650 2250 4650
+Wire Wire Line
+	2250 4650 2250 4600
+Wire Wire Line
+	2250 4600 3850 4600
 $EndSCHEMATC
