@@ -289,19 +289,6 @@ Connection ~ 6150 1550
 Wire Wire Line
 	6150 1950 6150 2100
 $Comp
-L power:VBUS #PWR?
-U 1 1 5DF04C3D
-P 10000 1250
-AR Path="/5DF04C3D" Ref="#PWR?"  Part="1" 
-AR Path="/5DED2F9B/5DF04C3D" Ref="#PWR0111"  Part="1" 
-F 0 "#PWR0111" H 10000 1100 50  0001 C CNN
-F 1 "VBUS" H 10015 1423 50  0000 C CNN
-F 2 "" H 10000 1250 50  0001 C CNN
-F 3 "" H 10000 1250 50  0001 C CNN
-	1    10000 1250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5DF04C43
 P 10000 2100
@@ -1231,6 +1218,14 @@ Wire Wire Line
 Connection ~ 8550 1550
 Wire Wire Line
 	8550 1950 8550 2100
+Wire Wire Line
+	1800 4650 1900 4650
+Wire Wire Line
+	2200 4650 2250 4650
+Wire Wire Line
+	2250 4650 2250 4600
+Wire Wire Line
+	2250 4600 3850 4600
 $Comp
 L Device:R R?
 U 1 1 5DFF908E
@@ -1244,12 +1239,31 @@ F 3 "~" H 2050 4650 50  0001 C CNN
 	1    2050 4650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1800 4650 1900 4650
-Wire Wire Line
-	2200 4650 2250 4650
-Wire Wire Line
-	2250 4650 2250 4600
-Wire Wire Line
-	2250 4600 3850 4600
+Text Label 3650 5000 0    50   ~ 0
+nRST
+Text Label 3650 5100 0    50   ~ 0
+nINT
+Text Label 3550 4500 0    50   ~ 0
+PHYAD0
+Text Label 5400 4700 0    50   ~ 0
+RBIAS
+Text Label 3650 4300 0    50   ~ 0
+RX0
+Text Label 3650 4400 0    50   ~ 0
+RX1
+Text Label 3550 4600 0    50   ~ 0
+CRS_DV
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E17203C
+P 10000 1250
+AR Path="/5E17203C" Ref="#PWR?"  Part="1" 
+AR Path="/5DED2F9B/5E17203C" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 10000 1100 50  0001 C CNN
+F 1 "+3.3V" H 10015 1423 50  0000 C CNN
+F 2 "" H 10000 1250 50  0001 C CNN
+F 3 "" H 10000 1250 50  0001 C CNN
+	1    10000 1250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
