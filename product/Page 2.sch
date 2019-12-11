@@ -573,17 +573,6 @@ Wire Wire Line
 	8700 5350 8700 5250
 Text GLabel 8450 4750 0    50   Input ~ 0
 RESTART
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J3
-U 1 1 5DFAE484
-P 5000 6600
-F 0 "J3" H 5050 6925 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 5050 6926 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 5000 6600 50  0001 C CNN
-F 3 "~" H 5000 6600 50  0001 C CNN
-	1    5000 6600
-	1    0    0    -1  
-$EndComp
 Text GLabel 5500 6500 2    50   Input ~ 0
 RX
 Text GLabel 5500 6400 2    50   Input ~ 0
@@ -595,33 +584,16 @@ BOOTMODE
 $Comp
 L power:GND #PWR0146
 U 1 1 5DFAF37B
-P 4700 6900
-F 0 "#PWR0146" H 4700 6650 50  0001 C CNN
-F 1 "GND" H 4705 6727 50  0000 C CNN
-F 2 "" H 4700 6900 50  0001 C CNN
-F 3 "" H 4700 6900 50  0001 C CNN
-	1    4700 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0147
-U 1 1 5DFAF73B
-P 4700 6300
-F 0 "#PWR0147" H 4700 6150 50  0001 C CNN
-F 1 "+5V" H 4715 6473 50  0000 C CNN
-F 2 "" H 4700 6300 50  0001 C CNN
-F 3 "" H 4700 6300 50  0001 C CNN
-	1    4700 6300
+P 5400 6900
+F 0 "#PWR0146" H 5400 6650 50  0001 C CNN
+F 1 "GND" H 5405 6727 50  0000 C CNN
+F 2 "" H 5400 6900 50  0001 C CNN
+F 3 "" H 5400 6900 50  0001 C CNN
+	1    5400 6900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 6400 4700 6400
-Wire Wire Line
-	4700 6400 4700 6300
-Wire Wire Line
-	4800 6800 4700 6800
-Wire Wire Line
-	4700 6800 4700 6900
+	5400 6800 5400 6900
 Wire Wire Line
 	5300 6700 5500 6700
 Wire Wire Line
@@ -630,7 +602,6 @@ Wire Wire Line
 	5300 6500 5500 6500
 Wire Wire Line
 	5500 6400 5300 6400
-NoConn ~ 5300 6800
 NoConn ~ 4800 6700
 NoConn ~ 4800 6600
 NoConn ~ 4800 6500
@@ -842,4 +813,19 @@ Text GLabel 1350 6550 0    50   Input ~ 0
 CLKEN
 Text GLabel 3850 3200 2    50   Input ~ 0
 CLKEN
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J3
+U 1 1 5DFAE484
+P 5000 6600
+F 0 "J3" H 5050 6925 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 5050 6926 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 5000 6600 50  0001 C CNN
+F 3 "~" H 5000 6600 50  0001 C CNN
+	1    5000 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 6800 5400 6800
+NoConn ~ 4800 6800
+NoConn ~ 4800 6400
 $EndSCHEMATC
