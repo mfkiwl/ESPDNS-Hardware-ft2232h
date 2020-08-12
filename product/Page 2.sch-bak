@@ -44,7 +44,7 @@ MDC
 Text GLabel 3850 3500 2    50   Input ~ 0
 MDIO
 Text GLabel 3850 4200 2    50   Input ~ 0
-CRS_DV
+CRS_DV_r
 Text GLabel 3850 4100 2    50   Input ~ 0
 RXD1
 Text GLabel 3850 4000 2    50   Input ~ 0
@@ -58,9 +58,9 @@ TXD0
 Text GLabel 3050 6450 2    50   Input ~ 0
 CLKIN
 Text GLabel 3850 2400 2    50   Input ~ 0
-TX
-Text GLabel 3850 2600 2    50   Input ~ 0
 RX
+Text GLabel 3850 2600 2    50   Input ~ 0
+TX
 Text GLabel 3850 2300 2    50   Input ~ 0
 BOOTMODE
 Text GLabel 3850 2200 2    50   Input ~ 0

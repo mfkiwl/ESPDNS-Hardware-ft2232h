@@ -677,7 +677,7 @@ TXD1
 Text GLabel 2550 4000 0    50   Input ~ 0
 TXD0
 Text GLabel 2550 5300 0    50   Input ~ 0
-CLKIN
+CLK50MHZ
 $Comp
 L Device:R R?
 U 1 1 5DF04CF4

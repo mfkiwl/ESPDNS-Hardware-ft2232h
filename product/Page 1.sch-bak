@@ -665,7 +665,7 @@ MDC
 Text GLabel 2550 4700 0    50   Input ~ 0
 MDIO
 Text GLabel 1800 4650 0    50   Input ~ 0
-CRS_DV
+CRS_DV_r
 Text GLabel 1800 4450 0    50   Input ~ 0
 RXD1
 Text GLabel 1800 4250 0    50   Input ~ 0
@@ -774,8 +774,6 @@ F 3 "" H 3500 5900 50  0001 C CNN
 	1    3500 5900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3500 4500 3500 5500
 Wire Wire Line
 	3500 5900 3500 5800
 $Comp
@@ -1257,8 +1255,6 @@ Wire Wire Line
 	2200 4650 2250 4650
 Wire Wire Line
 	2250 4650 2250 4600
-Wire Wire Line
-	2250 4600 3850 4600
 $Comp
 L Device:R R?
 U 1 1 5DFF908E
@@ -1285,8 +1281,6 @@ Text Label 3650 4300 0    50   ~ 0
 RX0
 Text Label 3650 4400 0    50   ~ 0
 RX1
-Text Label 3550 4600 0    50   ~ 0
-CRS_DV
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5E17203C
@@ -1300,4 +1294,10 @@ F 3 "" H 10000 1250 50  0001 C CNN
 	1    10000 1250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3500 4500 3500 5500
+Wire Wire Line
+	2250 4600 3850 4600
+Text Label 3550 4600 0    50   ~ 0
+CRS_DV
 $EndSCHEMATC
