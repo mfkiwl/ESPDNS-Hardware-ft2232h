@@ -1,0 +1,9 @@
+TODO:
+Measure current consumption of device
+Add ESD Diodes & improve EMC
+Remove some decoupling on USB input
+Improve programmer to include DTR signal and JTAG (aka upgrade from FT230X)
+
+Maybe:
+USB A connector
+Look into USB C
