@@ -1,9 +1,15 @@
 TODO:
 Measure current consumption of device
+Add shield/earth ground plane
 Add ESD Diodes & improve EMC
 Remove some decoupling on USB input
 Improve programmer to include DTR signal and JTAG (aka upgrade from FT230X)
+Look into making board 4 layers
 
 Maybe:
 USB A connector
 Look into USB C
+Remove wifi, use ESP32 instead of ESP32-WROOM
+
+Someday:
+Change to Linux platform using I.MX 6ULLY7DVM09AA with PHY, or I.MX 6ULZ with ethernet controller

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:EsperDNS-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -238,7 +237,7 @@ F 4 "C105588" H 5700 3750 50  0001 C CNN "LCSC Part Number"
 $EndComp
 Wire Wire Line
 	4600 2650 4950 2650
-NoConn ~ 4600 2950
+NoConn ~ 4600 2750
 NoConn ~ 4600 3050
 NoConn ~ 4600 3550
 Wire Wire Line
@@ -537,8 +536,8 @@ Text GLabel 4950 3250 2    50   Input ~ 0
 Red
 Text GLabel 4950 3350 2    50   Input ~ 0
 Green
-Wire Wire Line
-	4600 2750 4950 2750
-Text GLabel 4950 2750 2    50   Input ~ 0
+Text GLabel 4950 2950 2    50   Input ~ 0
 Block
+Wire Wire Line
+	4600 2950 4950 2950
 $EndSCHEMATC
