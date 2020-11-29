@@ -6,4 +6,4 @@ This device is designed to be much cheaper, and easier to set up than a Pi-Hole 
 
 This repository contains the KiCad projects for the full product and the programmer boards.  
 
-![Imgur](https://i.imgur.com/xf5ie4P.jpg?1)
+![Imgur](https://imgur.com/a/oh1VKWj)
