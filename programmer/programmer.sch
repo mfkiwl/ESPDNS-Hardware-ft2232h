@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L programmer-rescue:10118192-0001LF-My_Symbols J1
+L Connector:USB_B_Micro J1
 U 1 1 5DF14664
 P 1800 1900
 F 0 "J1" H 1800 2250 50  0000 C CNN
@@ -109,6 +109,7 @@ F 1 "FT2232HL" H 9100 3550 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 9100 3550 50  0001 C CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf" H 9100 3550 50  0001 C CNN
 F 4 "768-1347-ND" H 9100 3550 50  0001 C CNN "Digikey Part Number"
+F 5 "C27882" H 9100 3550 50  0001 C CNN "LCSC Part Number"
 	1    9100 3550
 	1    0    0    -1  
 $EndComp
@@ -124,6 +125,7 @@ F 1 "0.1uF" H 2965 1900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2888 1750 50  0001 C CNN
 F 3 "~" H 2850 1900 50  0001 C CNN
 F 4 "10V" H 2965 1809 50  0000 L CNN "Rating"
+F 5 "C14663" H 2850 1900 50  0001 C CNN "LCSC Part Number"
 	1    2850 1900
 	1    0    0    -1  
 $EndComp
@@ -169,6 +171,7 @@ F 1 "0.1uF" H 4215 1900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4138 1750 50  0001 C CNN
 F 3 "~" H 4100 1900 50  0001 C CNN
 F 4 "10V" H 4215 1809 50  0000 L CNN "Rating"
+F 5 "C14663" H 4100 1900 50  0001 C CNN "LCSC Part Number"
 	1    4100 1900
 	1    0    0    -1  
 $EndComp
@@ -372,6 +375,7 @@ F 0 "R1" H 7070 3246 50  0000 L CNN
 F 1 "12K" H 7070 3155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 3200 50  0001 C CNN
 F 3 "~" H 7000 3200 50  0001 C CNN
+F 4 "C22790" H 7000 3200 50  0001 C CNN "LCSC Part Number"
 	1    7000 3200
 	1    0    0    -1  
 $EndComp
@@ -396,6 +400,7 @@ F 0 "R2" V 7500 3100 50  0000 L CNN
 F 1 "12K" V 7600 3100 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7430 3150 50  0001 C CNN
 F 3 "~" H 7500 3150 50  0001 C CNN
+F 4 "C22790" V 7500 3150 50  0001 C CNN "LCSC Part Number"
 	1    7500 3150
 	0    1    1    0   
 $EndComp
@@ -454,6 +459,9 @@ F 1 "2N7002ET1G" H 2104 3855 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2100 4000 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/2N7002E-D.PDF" H 1900 3900 50  0001 C CNN
 F 4 "2N7002ET1GOSCT-ND" H 1900 3900 50  0001 C CNN "Digikey Part Number"
+F 5 "2N7002" H 1900 3900 50  0001 C CNN "LCSC Alternate"
+F 6 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf" H 1900 3900 50  0001 C CNN "Alternate Datasheet"
+F 7 "C8545" H 1900 3900 50  0001 C CNN "LCSC Part Number"
 	1    1900 3900
 	1    0    0    -1  
 $EndComp
@@ -533,6 +541,7 @@ F 1 "0.1uF" H 6215 2250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6138 2100 50  0001 C CNN
 F 3 "~" H 6100 2250 50  0001 C CNN
 F 4 "10V" H 6215 2159 50  0000 L CNN "Rating"
+F 5 "C14663" H 6100 2250 50  0001 C CNN "LCSC Part Number"
 	1    6100 2250
 	1    0    0    -1  
 $EndComp
@@ -558,6 +567,7 @@ F 1 "0.1uF" H 6665 2250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6588 2100 50  0001 C CNN
 F 3 "~" H 6550 2250 50  0001 C CNN
 F 4 "10V" H 6665 2159 50  0000 L CNN "Rating"
+F 5 "C14663" H 6550 2250 50  0001 C CNN "LCSC Part Number"
 	1    6550 2250
 	1    0    0    -1  
 $EndComp
@@ -578,6 +588,7 @@ F 1 "0.1uF" H 6215 1250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6138 1100 50  0001 C CNN
 F 3 "~" H 6100 1250 50  0001 C CNN
 F 4 "10V" H 6215 1159 50  0000 L CNN "Rating"
+F 5 "C14663" H 6100 1250 50  0001 C CNN "LCSC Part Number"
 	1    6100 1250
 	1    0    0    -1  
 $EndComp
@@ -621,6 +632,9 @@ F 1 "ASDMB-12.000MHz" H 6200 4400 50  0000 L CNN
 F 2 "Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm" H 6950 4750 50  0001 C CNN
 F 3 "https://abracon.com/Oscillators/ASDMB.pdf" H 7250 5200 50  0001 C CNN
 F 4 "535-11180-1-ND" H 6950 4750 50  0001 C CNN "Digikey Part Number"
+F 5 "O252012MEDH4MI" H 6950 4750 50  0001 C CNN "LCSC Alternate"
+F 6 "https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-O252012MEDH4MI_C90619.pdf" H 6950 4750 50  0001 C CNN "Alternate Datasheet"
+F 7 "C90619" H 6950 4750 50  0001 C CNN "LCSC Part Number"
 	1    6950 4750
 	1    0    0    -1  
 $EndComp
@@ -662,6 +676,9 @@ F 1 "BLU" V 2698 6182 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 2750 6300 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150060BS75000.pdf" H 2750 6300 50  0001 C CNN
 F 4 "732-4966-1-ND" V 2750 6300 50  0001 C CNN "Digikey Part Number"
+F 5 "19-217/BHC-ZL1M2RY/3T" V 2750 6300 50  0001 C CNN "LCSC Alternate"
+F 6 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-BHC-ZL1M2RY-3T_C72041.pdf" V 2750 6300 50  0001 C CNN "Alternate Datasheet"
+F 7 "C72041" V 2750 6300 50  0001 C CNN "LCSC Part Number"
 	1    2750 6300
 	0    -1   -1   0   
 $EndComp
@@ -674,6 +691,9 @@ F 1 "GRN" V 3148 6182 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 3200 6300 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150060GS75000.pdf" H 3200 6300 50  0001 C CNN
 F 4 "732-4971-1-ND" V 3200 6300 50  0001 C CNN "Digikey Part Number"
+F 5 "19-217/GHC-YR1S2/3T" V 3200 6300 50  0001 C CNN "LCSC Alternate"
+F 6 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" V 3200 6300 50  0001 C CNN "Alternate Datasheet"
+F 7 "C72043" V 3200 6300 50  0001 C CNN "LCSC Part Number"
 	1    3200 6300
 	0    -1   -1   0   
 $EndComp
@@ -686,6 +706,7 @@ F 1 "470" H 2820 6700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 6700 50  0001 C CNN
 F 3 "~" H 2750 6700 50  0001 C CNN
 F 4 "1/10W" H 2820 6609 50  0000 L CNN "Rating"
+F 5 "C23179" H 2750 6700 50  0001 C CNN "LCSC Part Number"
 	1    2750 6700
 	1    0    0    -1  
 $EndComp
@@ -698,6 +719,7 @@ F 1 "470" H 3270 6700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 6700 50  0001 C CNN
 F 3 "~" H 3200 6700 50  0001 C CNN
 F 4 "1/10W" H 3270 6609 50  0000 L CNN "Rating"
+F 5 "C23179" H 3200 6700 50  0001 C CNN "LCSC Part Number"
 	1    3200 6700
 	1    0    0    -1  
 $EndComp
@@ -807,6 +829,7 @@ F 1 "0.1uF" H 7465 4200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7388 4050 50  0001 C CNN
 F 3 "~" H 7350 4200 50  0001 C CNN
 F 4 "10V" H 7465 4109 50  0000 L CNN "Rating"
+F 5 "C14663" H 7350 4200 50  0001 C CNN "LCSC Part Number"
 	1    7350 4200
 	1    0    0    -1  
 $EndComp
@@ -837,6 +860,7 @@ F 1 "0.1uF" H 7115 2250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7038 2100 50  0001 C CNN
 F 3 "~" H 7000 2250 50  0001 C CNN
 F 4 "10V" H 7115 2159 50  0000 L CNN "Rating"
+F 5 "C14663" H 7000 2250 50  0001 C CNN "LCSC Part Number"
 	1    7000 2250
 	1    0    0    -1  
 $EndComp
@@ -864,6 +888,9 @@ F 1 "TLV75533PDBV" H 3550 2051 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3550 2125 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv755p.pdf" H 3550 1850 50  0001 C CNN
 F 4 "296-50411-1-ND" H 3550 1800 50  0001 C CNN "Digikey Part Number"
+F 5 "RT9013-33GB" H 3550 1800 50  0001 C CNN "LCSC Alternate"
+F 6 "https://datasheet.lcsc.com/szlcsc/Richtek-Tech-RT9013-33GB_C47773.pdf" H 3550 1800 50  0001 C CNN "Alternate Datasheet"
+F 7 "C47773" H 3550 1800 50  0001 C CNN "LCSC Part Number"
 	1    3550 1800
 	1    0    0    -1  
 $EndComp
@@ -883,6 +910,7 @@ F 1 "1uF" H 6665 1250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6588 1100 50  0001 C CNN
 F 3 "~" H 6550 1250 50  0001 C CNN
 F 4 "10V" H 6665 1159 50  0000 L CNN "Rating"
+F 5 "C15849" H 6550 1250 50  0001 C CNN "LCSC Part Number"
 	1    6550 1250
 	1    0    0    -1  
 $EndComp
@@ -940,14 +968,17 @@ $EndComp
 Connection ~ 6100 1050
 Connection ~ 6100 2050
 $Comp
-L Device:Q_NMOS_GSD Q?
-U 1 1 5FF775F6
+L Device:Q_NMOS_GSD Q2
+U 1 1 5FF7EC17
 P 1900 4550
-F 0 "Q?" H 2104 4596 50  0000 L CNN
+F 0 "Q2" H 2104 4596 50  0000 L CNN
 F 1 "2N7002ET1G" H 2104 4505 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2100 4650 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/2N7002E-D.PDF" H 1900 4550 50  0001 C CNN
 F 4 "2N7002ET1GOSCT-ND" H 1900 4550 50  0001 C CNN "Digikey Part Number"
+F 5 "2N7002" H 1900 4550 50  0001 C CNN "LCSC Alternate"
+F 6 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf" H 1900 4550 50  0001 C CNN "Alternate Datasheet"
+F 7 "C8545" H 1900 4550 50  0001 C CNN "LCSC Part Number"
 	1    1900 4550
 	1    0    0    1   
 $EndComp
