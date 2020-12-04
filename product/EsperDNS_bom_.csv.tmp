@@ -1,0 +1,38 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Rating,LCSC Part Number,Extended Part
+1,Unpolarized capacitor,C,C2 C5 C6 C7 C8 C11,0.1uF,C_0402_1005Metric,6,https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf,10V,C1525,
+2,Unpolarized capacitor,C,C1 C4 C9,1uF,C_0402_1005Metric,3,https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf,10V,C52923,
+3,Unpolarized capacitor,C,C3 C10,10uF,C_0603_1608Metric,2,https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf,10V,C19702,
+4,Light emitting diode,LED,D1,GRN,D_0603_1608Metric,1,https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf,,C72043,
+5,Triple LED RVB (Avago Technology),ASMT-YTB7-0AA02,D2,RS-3535MWAR,LED_RGB_PLCC-6,1,https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-RS-3535MWAR-2JYJY-J_C110402.pdf,,C110402,
+6,Ferrite bead,Ferrite_Bead,FB1 FB2,Ferrite_Bead,L_0805_2012Metric,2,https://datasheet.lcsc.com/szlcsc/Sunlord-GZ2012D101TF_C1015.pdf,,C1015,
+7,USB Micro Type B connector,USB_B_Micro,J1,10118192-0001LF,AMPHENOL_10118192-0001LF,1,~,,,
+8,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x05_Odd_Even,J2,Conn_02x05_Odd_Even,CNC_3220-10-0100-00,1,~,,,
+9,"1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX",RJ45_Amphenol_RJMG1BD3B8K1ANR,J3,RJ45_Amphenol_RJMG1BD3B8K1ANR,RJ45_Amphenol_RJMG1BD3B8K1ANR,1,https://www.amphenolcanada.com/ProductSearch/Drawings/AC/RJMG1BD3B8K1ANR.PDF,,,
+10,"N-MOSFET transistor, gate/source/drain",Q_NMOS_GSD,Q1 Q2 Q3,2N7002,SOT-23,3,https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf,,C8545,
+11,Resistor,R,R3 R4,47,R_0603_1608Metric,2,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF470JT5E_C23182.pdf,1/10W,C23182,
+12,Resistor,R,R6 R7 R9 R13 R14 R15 R16 R18 R19 R20 R22,49.9,R_0402_1005Metric,11,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF499JTCE_C25120.pdf,,C25120,
+13,Resistor,R,R5,82,R_1206_3216Metric,1,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-1206W4F825JT5E_C247183.pdf,1/4W,C247183,
+14,Resistor,R,R17 R21,270,R_0603_1608Metric,2,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2700T5E_C22966.pdf,1/10W,C22966,
+15,Resistor,R,R1,470,R_0402_1005Metric,1,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGD4700TCE_C270656.pdf,1/16W,C270656,
+16,Resistor,R,R2 R8 R10 R11 R12 R24,10K,R_0402_1005Metric,6,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf,,C25744,
+17,Resistor,R,R23,12.1K,R_0402_1005Metric,1,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1212TCE_C25852.pdf,1%,C25852,X
+18,Single Pole Single Throw (SPST) switch,SW_SPST,SW1,PTS645VH83-2 LFS,SW_Tactile_SPST_Angled_PTS645Vx83-2LFS,1,https://www.ckswitches.com/media/1471/pts645.pdf,,,
+19,"1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263",AZ1117-3.3,U1,AZ1117EH-3.3TRG1,SOT-223,1,https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-AZ1117EH-3-3TRG1_C108494.pdf,,C108494,X
+20,"RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD",ESP32-WROOM-32D,U2,ESP32-WROOM-32E,ESP32-WROOM-32,1,https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf,,C701341,X
+21,"LAN8720 Ethernet PHY with RMII interface, QFN-24",LAN8720A,U3,LAN8720A,QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias,1,http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf,,C45223,X
+
+
+
+
+
+Component Groups:,21
+Component Count:,49
+Fitted Components:,49
+Number of PCBs:,1
+Total components:,49
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,default
+BoM Date:,12/4/2020 2:27:39 PM
+Schematic Source:,EsperDNS.sch
+KiCad Version:,Eeschema (5.1.7)-1
