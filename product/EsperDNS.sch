@@ -14,15 +14,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 6350 2650 650  250 
+S 5950 2850 650  250 
 U 5DED2F9B
-F0 "Page 1" 50
-F1 "Page 1.sch" 50
+F0 "ESP32" 50
+F1 "ESP32.sch" 50
 $EndSheet
 $Sheet
-S 6350 3200 700  250 
+S 5950 3350 700  250 
 U 5DED3446
-F0 "Page 2" 50
-F1 "Page 2.sch" 50
+F0 "Ethernet" 50
+F1 "Ethernet.sch" 50
 $EndSheet
 $EndSCHEMATC
